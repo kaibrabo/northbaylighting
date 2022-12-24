@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+#sectionContents {
+    border: 1px solid black;
+    height: 90vh;
+    width: 100%;
+}
