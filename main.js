@@ -44,7 +44,7 @@ function createEmployeeSection(employee) {
     return component;
 }
 
-aboutSection();
+
 
 displaySection.append(nav, sectionContents);
 
