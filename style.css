@@ -27,27 +27,3 @@ html {
 .menu {
     display: none;
 }
-
-/* h1 {
-    text-align: center;
-}
-
-#navbar {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 30px;
-}
-
-#baseInfo {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-}
-
-#sectionContents {
-    border: 1px solid black;
-    height: 90vh;
-    width: 100%;
-} */
