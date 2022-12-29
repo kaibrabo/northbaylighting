@@ -30,15 +30,15 @@
 
     <!-- Header with image -->
     <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-        <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-            <span class="w3-tag">Open from 6am to 5pm</span>
+        <div class="w3-display-middle w3-center header-img-outer">
+            <span class="w3-text-white header-img-text">North Bay Lighting<br>& Electrical Supply</span>
         </div>
-        <div class="w3-display-middle w3-center">
-            <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+        <!-- <div class="w3-display-bottomleft w3-center w3-padding-large">
+            <span class="w3-tag">Open from 7:30am to 5:00pm</span>
         </div>
         <div class="w3-display-bottomright w3-center w3-padding-large">
-            <span class="w3-text-white">15 Adr street, 5015</span>
-        </div>
+            <span class="w3-text-white">607 Irwin street, San Rafael 94901</span>
+        </div> -->
     </header>
 
     <!-- Add a background color and large text to the whole page -->
@@ -48,10 +48,11 @@
         <div class="w3-container" id="about">
             <div class="w3-content" style="max-width:700px">
                 <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE SHOP</span></h5>
-                <p><strong>Hours:</strong> Monday to Friday from 7:30am to 5:00pm.</p>
-                <p><strong>Address:</strong> 607 Irwin street, San Rafael 94901</p>
+                <p><strong>Phone:</strong> 415 453 6132</p>
+                <p><strong>Open:</strong> Monday to Friday from 7:30am to 5:00pm.</p>
+                <p><strong>Address:</strong> <a href='https://goo.gl/maps/WUuQ7CqMk83Guj1c7'>607 Irwin street in San Rafael.</a></p>
                 <br>
-                <p>North Bay Lighting was founded in San Rafael by Mr. Ed in 1980. With an understanding of our need for the electric future, Ed built NBL into a thriving business whilst serving Marin county.
+                <p>With an understanding of our need for the electric future, North Bay Lighting was founded in San Rafael by Mr. Ed in 1980. Ed built NBL into a thriving business whilst serving Marin county. Today, his son Pete owns and operates NBL with Kalani and Vonte.
                 <p>In addition to electrical products for commercial work, we serve a wide variety of specialty lighting bulbs and features.</p>
                 <br>
                 <div class="w3-panel w3-leftbar w3-light-grey">
@@ -67,53 +68,138 @@
         <div class="w3-container" id="menu">
             <div class="w3-content" style="max-width:700px">
 
-                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+                <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PRODUCTS</span></h5>
+
+                <p><span class="w3-tag">Important!</span><br> We can price equal to or beat what can be found on the internet depending on product and quantity. If it is not listed we may still be able to get it.</p>
+                <br>
 
                 <div class="w3-row w3-center w3-card w3-padding">
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-                        <div class="w3-col s6 tablink">Eat</div>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Bulbs');" id="myLink">
+                        <div class="w3-col s6 tablink">Light Bulbs</div>
                     </a>
-                    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-                        <div class="w3-col s6 tablink">Drink</div>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Fixtures');">
+                        <div class="w3-col s6 tablink">Fixtures</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Electrical');">
+                        <div class="w3-col s6 tablink">Electrical</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openMenu(event, 'Parts');">
+                        <div class="w3-col s6 tablink">Parts</div>
                     </a>
                 </div>
 
-                <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-                    <h5>Bread Basket</h5>
-                    <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+                <div id="Bulbs" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>LED</h5>
+                    <p class="w3-text-grey">a solid-state lighting (SSL) device that fits in standard screw-in connections but uses LEDs (light-emitting diodes) to produce light. LED light bulbs are a more environmentally-friendly alternative to incandescent bulbs.</p><br>
 
-                    <h5>Honey Almond Granola with Fruits</h5>
-                    <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                    <h5>Incandescent</h5>
+                    <p class="w3-text-grey">an electric light with a wire filament heated until it glows.</p>
                     <br>
 
-                    <h5>Belgian Waffle</h5>
-                    <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-
-                    <h5>Scrambled eggs</h5>
-                    <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                    <h5>Halogen</h5>
+                    <p class="w3-text-grey">a type of incandescent lamp which uses a halogen gas in order to increase both light output and rated life. They are known for moderately high efficiency, quality of light, and high rated life compared to regular incandescent lamps.</p>
                     <br>
 
-                    <h5>Blueberry Pancakes</h5>
-                    <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+                    <h5>Xenon</h5>
+                    <p class="w3-text-grey">a specialized type of gas discharge lamp, an electric light that produces light by passing electricity through ionized xenon gas at high pressure. It produces a bright white light that closely mimics natural sunlight.</p>
+                    <br>
+
+                    <h5>Fluorescent</h5>
+                    <p class="w3-text-grey">a low-pressure mercury-vapor gas-discharge lamp that uses fluorescence to produce visible light. An electric current in the gas excites mercury vapor, which produces short-wave ultraviolet light that then causes a phosphor coating on the inside of the lamp to glow.</p>
+                    <br>
+
+                    <h5>High Pressure Sodium</h5>
+                    <p class="w3-text-grey">part of the family of high intensity light bulbs that put out large amounts of light generally needed for street lighting and security lighting. The combination of metals and gasses within inside the glass tube produces an orange-white light commonly found in street lights.</p>
+                    <br>
+
+                    <h5>Metal Halide</h5>
+                    <p class="w3-text-grey">an electric light that produces light by an electric arc through a gaseous mixture of vaporized mercury and metal halides[1][2] (compounds of metals with bromine or iodine). It is a type of high-intensity discharge (HID) gas discharge lamp.</p>
+                    <br>
+
+                    <h5>Mercury Vapor</h5>
+                    <p class="w3-text-grey">bright, long-lasting light sources that are often used to light large areas such as streets, gyms, sports arenas, banks, or stores. The bulbs have an inner quartz tube containing the mercury vapor discharge.</p>
+               
                 </div>
 
-                <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-                    <h5>Coffee</h5>
-                    <p class="w3-text-grey">Regular coffee 2.50</p><br>
+                <div id="Fixtures" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>Outdoor Lighting</h5>
+                    <p class="w3-text-grey">Landscape lighting or garden lighting refers to the use of outdoor illumination of private gardens and public landscapes; for the enhancement and purposes of safety, nighttime aesthetics, accessibility, security, recreation and sports, and social and event uses.</p>
+                    <br>
 
-                    <h5>Chocolato</h5>
-                    <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+                    <h5>Indoor Lighting</h5>
+                    <p class="w3-text-grey">Any lamp, pendant, or fixture used to illuminate your home's interiors. They are typically made not just to brighten your space, but to add decor and overall enhance your current furniture setup.</p>
+                    <br>
 
-                    <h5>Corretto</h5>
-                    <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+                    <h5>Track Lighting</h5>
+                    <p class="w3-text-grey">a method of lighting where light fixtures are attached anywhere on a continuous track device which contains electrical conductors.</p><br>
 
-                    <h5>Iced tea</h5>
-                    <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+                    <h5>Cable Lighting</h5>
+                    <p class="w3-text-grey">a variation where the fixtures are hung from uninsulated cables which carry low voltage.</p>
+                    <br>
 
-                    <h5>Soda</h5>
-                    <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+                    <h5>Monorail Lighting</h5>
+                    <p class="w3-text-grey">one of the most flexible options, a versatile and dynamic ceiling-mounted lighting solution that accommodates both adjustable track heads and decorative pendants. Hand-bendable, the rail can be shaped in a variety of linear or curvilinear configurations for functional flexibility and stylish appeal.</p><br>
+
+                    <h5>Recessed Ceiling Lighting</h5>
+                    <p class="w3-text-grey">also known as downlights or can lights, are a type of lighting fixture installed into the ceiling or wall. They are designed to sit flush with the surface for a sleek and polished finish. The housing and electrical wiring components are hidden, and the bulb appears to glow from within the opening.</p>
+                    <br>
+                    
+                    <h5>Tape Lighting</h5>
+                    <p class="w3-text-grey">An LED strip light (also known as an LED tape or ribbon light) is a flexible circuit board populated by surface mounted light-emitting diodes (SMD LEDs) and other components that usually comes with an adhesive backing.</p><br>
+
                 </div>
-                <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+                
+                <div id="Electrical" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>Outlets and Plugs</h5>
+                    <p class="w3-text-grey">frequently called a wall outlet, is a socket that connects an electrical device to an electricity supply. In buildings, electrical outlets are usually installed in the wall, although they can also be installed in the floor.</p>
+                    <br>
+                    
+                    <h5>Switches</h5>
+                    <p class="w3-text-grey">most commonly used to operate electric lights, permanently connected equipment, or electrical outlets. Portable lamps such as table lamps may have a light switch mounted on the socket, base, or in-line with the cord.</p><br>
+                    
+                    <h5>Dimmers</h5>
+                    <p class="w3-text-grey"> a device connected to a light fixture and used to lower the brightness of the light. By changing the voltage waveform applied to the lamp, it is possible to lower the intensity of the light output.</p><br>
+                    
+                    <h5>(Smart) Home Control</h5>
+                    <p class="w3-text-grey">control the electronic devices in your home. These devices may be connected to the Internet, which allows them to be controlled remotely. With home automation, devices can trigger one another so you don't have to control them manually via an app or voice assistant.</p>
+                    <br>
+
+                    <h5>Novelties</h5>
+                    <p class="w3-text-grey">non-permanent electronic stuff</p><br>
+                    
+                    <h5>Timers</h5>
+                    <p class="w3-text-grey">an type of switch that triggers pre-programmed events such as alarms, on/off switching by completing the pre-determined time interval and sending an output signal to the connected equipment.</p>
+                    <br>
+
+                    <h5>Circuit Breakers</h5>
+                    <p class="w3-text-grey">an electrical safety device designed to protect an electrical circuit from damage caused by an overcurrent or short circuit.</p>
+                    <br>
+
+                    <h5>Cable/Telecom Wall Ports</h5>
+                    <p class="w3-text-grey">are electrical components for connecting a telephone or internet to the wiring inside a building, establishing a connection to a telecom or cable network.</p><br>
+
+                    <h5>Lamp Sockets and Adapters</h5>
+                    <p class="w3-text-grey">a device which mechanically supports and provides electrical connections for a compatible electric lamp base. Sockets allow lamps to be safely and conveniently replaced (re-lamping).</p>
+                    <br>
+
+                    <h5>Electrical Boxes and Accessories</h5>
+                    <p class="w3-text-grey">also known as junction boxes, enclose wire connections. They help protect against short circuits, which can cause fires.</p><br>
+
+                    <h5>Electrical Wire</h5>
+                    <p class="w3-text-grey">a type of conductor, which is a material that conducts electricity. In the case of household wiring, the conductor itself is usually copper or aluminum (or copper-sheathed aluminum) and is either a solid metal conductor or stranded wire.</p>
+
+                </div>
+
+                <div id="Parts" class="w3-container menu w3-padding-48 w3-card">
+                    <h5>LED Drivers</h5>
+                    <p class="w3-text-grey">an electrical device that regulates power to an LED or a string of LEDs. It is a crucial piece to an LED circuit and to operate without one will result in system failure.</p><br>
+
+                    <h5>Magnetic AC Transformers (12v and 24v)</h5>
+                    <p class="w3-text-grey">an electrical device that uses the principle of electromagnetic induction to transfer energy from one electric circuit to another. It is designed to either increase or decrease AC voltage between the circuits while maintaining the frequency of the current</p><br>
+
+                    <h5>Ballasts: Fluorescent / Metal Halide / High Pressure Sodium</h5>
+                    <p class="w3-text-grey">a type of electrical resistor or reactance, fixed in-line with the circuits that supply mains power to a light bulb. The core role of a lighting ballast is to help control and regulate the supplied current during different operating phases (and voltages) for certain bulb types.</p><br>
+                </div>
             </div>
         </div>
 
@@ -121,12 +207,15 @@
         <div class="w3-container" id="where" style="padding-bottom:32px;">
             <div class="w3-content" style="max-width:700px">
                 <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
-                <p>Find us at some address at some place.</p>
-                <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-                <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We
-                    understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both
-                    look and taste.</p>
-                <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                <br>
+                <p><strong>Phone:</strong> 415 453 6132</p>
+                <p><strong>Open:</strong> Monday to Friday from 7:30am to 5:00pm</p>
+                <p><strong>Address:</strong> <a href='https://goo.gl/maps/WUuQ7CqMk83Guj1c7'>607 Irwin street in San Rafael.</a></p>
+                <br>
+                <a href="https://goo.gl/maps/WUuQ7CqMk83Guj1c7"><img src="/assets/map.png" class="w3-image" style="width:100%"></a>
+                <br><br>
+
+                <!-- <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
                 <form action="/action_page.php" target="_blank">
                     <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required
                             name="Name"></p>
@@ -137,7 +226,7 @@
                     <p><input class="w3-input w3-padding-16 w3-border" type="text"
                             placeholder="Message \ Special requirements" required name="Message"></p>
                     <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-                </form>
+                </form> -->
             </div>
         </div>
 
@@ -159,7 +248,7 @@
 
     <!-- <section id="displaySection"></section> -->
 
-    <footer>
+    <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
         <p>© 2008-2023 North Bay Lighting and Elecrical Supply Inc., All Rights Reserved</p>
     </footer>
     <script src="main.js"></script>
